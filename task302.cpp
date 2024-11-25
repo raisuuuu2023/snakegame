@@ -127,7 +127,6 @@ bool game_loop(SDL_Renderer* renderer, TTF_Font* font, Mix_Chunk* eat_sound, Mix
                     }
                     if (event.key.keysym.sym == SDLK_n) {
                         return false;
-
                     }
                 }
             }
